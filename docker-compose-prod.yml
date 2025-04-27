@@ -1,6 +1,6 @@
 services:
   api:
-    build: .
+    image: lastletter/api-practice
     depends_on:
       - postgres
     ports:
